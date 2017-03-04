@@ -17,6 +17,6 @@ button.onclick = function() {
         
     };
     //make a requwest
-    request.open('GET' , 'http://http://aritra-bhawani.imad.hasura-app.io/counter' , true);
+    request.open('GET' , 'http://aritra-bhawani.imad.hasura-app.io/counter' , true);
     request.send(null);
 };
